@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+/* General Styles */
+body {
+    margin: 0;
+    background-color: rgb(100, 179, 98);
+}
+
+/* Nav Styles */
+nav {
+    background-color: rgb(24, 82, 42);
+    color: white;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav p, nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a {
+    background-color: rgb(24, 82, 42);
+
+}
+
+nav a:hover {
+    background-color: rgb(24, 82, 42);
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(24, 82, 42);
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 15px 0; 
+    font-size: 14px; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+
+
+/* Splash Section */
+.splash {
+    background-color: rgb(100, 179, 98);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 5px solid rgb(24, 82, 42);
+}
+
+.splash h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 0;
+}
+
+.splash img {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.splash p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.splash p:nth-of-type(1){
+    font-weight: lighter;
+}
+
+.splash p:nth-of-type(2){
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Horizontal Rules */
+hr {
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+section h2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(10, 33, 17);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    padding-left: 70px;
+}
+
+
+/* Paragraph Styles */
+section.education p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 20px;
+    color:rgb(10, 33, 17);
+    line-height: 1.0;
+    margin-left: 100px;
+}
+
+section.honors p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    padding: 2px;
+    border-radius: 8px;
+    margin-left: 20px;
+    color:rgb(10, 33, 17);
+    line-height: 1.0;
+    margin-left: 100px;
+}
+
+section h1 {
+    color:rgb(10, 33, 17);
+    margin-left: 100px; 
+}
+
+section.leadership p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 20px;
+    color:rgb(10, 33, 17);
+    line-height: 1.0;
+    margin-left: 100px;
+}
+
+section.projects h3 {
+    font-size: 1.5rem;
+    color:rgb(10, 33, 17);
+    margin-left: 30px;
+}
+
+section.projects ul {
+    margin-left: 30px;
+}
+
+
+
+/* List Styles */
+ul {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 20px;
+    color:rgb(10, 33, 17);
+    line-height: 1.0;
+    margin-left: 100px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: purple;
+}
+
+
+
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-color: white;
+}
+
+.card {
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: auto;
+    height: auto;
+    max-width: 150px;   /* Limit the size of the image */
+    margin-bottom: 10px;  /* Space between the image and heading */
+    border-radius: 50%;
+}
+
+
+
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;  /* Stack the form elements in a column */
+    justify-content: center;  /* Vertically center the content */
+    align-items: center;  /* Horizontally center the content */
+    max-width: 600px;  /* Optional: limits the width of the form */
+    margin: 0 auto;  /* Centers the form container on the page */
+    padding: 20px;  /* Adds padding around the content */
+    background-color: rgb(100, 179, 98);  /* Optional: light background color */
+    border-radius: 10px;  /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.one-col h1 {
+    margin-left: 30px;
+}
+
+.one-col p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color:rgb(10, 33, 17);
+    text-align: center;
+}
+
+.thanks h1 {
+    align-content: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;  /* Stack form elements vertically */
+    gap: 15px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+form input:focus, form textarea:focus {
+    border: 2px solid #24A348;
+    background-color: #f0f8ff;
+    outline: none;
+}
+
+form button {
+    background-color: #24A348;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+}
+
+form button:hover {
+    background-color: #1f8c3d; 
+}
